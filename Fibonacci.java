@@ -18,7 +18,7 @@ public class Fibonacci {
         // iterate in the range [1, n)
         for (int i = 1; i < n; i++) {
             // print the current fibonacci number
-            System.out.println(second + " ");
+            System.out.print(second + " ");
 
             // update variables for the next fibonacci number
             int next = first + second; // calculate the next number in the sequence
